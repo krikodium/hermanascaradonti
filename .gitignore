@@ -1,0 +1,20 @@
+# Archivos de entorno - ¡NUNCA SUBIR!
+.env
+backend/.env
+frontend/.env
+
+# Dependencias y carpetas de caché
+/node_modules
+/frontend/node_modules
+/build
+/frontend/build
+/dist
+/frontend/dist
+.DS_Store
+*.pem
+*.log
+
+# Carpetas de Python
+__pycache__/
+venv/
+*.pyc
